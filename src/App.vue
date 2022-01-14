@@ -39,17 +39,20 @@
 
     <v-main>
       <HelloWorld/>
+      <WangEditor/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import WangEditor from "./components/WangEditor";
 
 export default {
   name: 'App',
 
   components: {
+    WangEditor,
     HelloWorld,
   },
 
